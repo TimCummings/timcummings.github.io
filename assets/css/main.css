@@ -99,11 +99,11 @@ html {
 }
 
 body {
-  background-color: #935d8c;
-  background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-  background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-  background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-  background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+  background-color: #353535;
+  background-image: url("images/overlay.png"), -moz-linear-gradient(345deg, #5e6668 15%, #353535 85%);
+  background-image: url("images/overlay.png"), -webkit-linear-gradient(345deg, #5e6668 15%, #353535 85%);
+  background-image: url("images/overlay.png"), -ms-linear-gradient(345deg, #5e6668 15%, #353535 85%);
+  background-image: url("images/overlay.png"), -linear-gradient(345deg, #5e6668 15%, #353535 85%);
 }
 
 body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -120,7 +120,12 @@ body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 /* Type */
 
 body {
-  background-color: #935d8c;
+  /* background-color: #935d8c; */
+  background-color: #353535;
+  /* background-color: #5e6668; */
+  /* background-color: #023b5b; */
+  /* background-color: #005680; */
+  /* background-color: #066086; */
   color: rgba(255, 255, 255, 0.65);
 }
 
@@ -129,6 +134,10 @@ body, input, select, textarea {
   font-size: 17pt;
   font-weight: 300;
   line-height: 1.65;
+}
+
+a {
+  color: #d57100;
 }
 
 @media screen and (max-width: 1680px) {
@@ -162,11 +171,10 @@ a {
   transition: color 0.2s ease, border-bottom 0.2s ease;
   text-decoration: none;
   border-bottom: dotted 1px;
-  color: inherit;
 }
 
 a:hover {
-  border-bottom-color: transparent;
+  /* border-bottom-color: transparent; */
 }
 
 strong, b {
@@ -3352,7 +3360,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main h1, #main h2, #main h3, #main h4, #main h5, #main h6 {
-  color: #636363;
+  color: #005680;
 }
 
 #main blockquote {
@@ -3545,11 +3553,7 @@ body.is-preload #header.alt .logo {
 }
 
 #main header.major h2:after {
-  background-color: #dddddd;
-  /* background-image: -moz-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
-  /* background-image: -webkit-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
-  /* background-image: -ms-linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
-  /* background-image: linear-gradient(90deg, #efa8b0, #a89cc8, #8cc9f0); */
+  background-color: #005680;
 }
 
 #main table tbody tr {
