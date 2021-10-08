@@ -3700,7 +3700,6 @@ body.is-preload #header.alt .logo {
 
 #footer > * {
   margin: 0 auto;
-  width: calc(50% - 2em);
 }
 
 #footer dl {
