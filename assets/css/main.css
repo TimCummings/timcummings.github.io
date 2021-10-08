@@ -3013,15 +3013,6 @@ table.alt tbody tr td {
   border: solid 1px;
 }
 
-.spotlight .image.left {
-  display: inline-block;
-  margin-left: 0;
-  margin-right: 4em;
-  padding: 0.65em;
-  border-radius: 100%;
-  border: solid 1px;
-}
-
 .spotlight .image img {
   display: block;
   border-radius: 100%;
@@ -3075,15 +3066,6 @@ table.alt tbody tr td {
     margin-left: 0;
     margin-bottom: 2em;
   }
-
-  .spotlight .image.left {
-    -moz-flex: 0 1 auto;
-    -webkit-flex: 0 1 auto;
-    -ms-flex: 0 1 auto;
-    flex: 0 1 auto;
-    margin-right: 0;
-    margin-bottom: 2em;
-  }
 }
 
 @media screen and (max-width: 736px) {
@@ -3093,14 +3075,6 @@ table.alt tbody tr td {
   }
 
   .spotlight .image img {
-    width: 12em;
-  }
-
-  .spotlight .image.left {
-    padding: 0.35em;
-  }
-
-  .spotlight .image.left img {
     width: 12em;
   }
 }
