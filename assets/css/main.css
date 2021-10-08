@@ -3100,23 +3100,19 @@ table.alt tbody tr td {
 }
 
 #header.alt {
-  padding: 7em 5em 4em 5em ;
+  padding: 3em 5em 1em 5em;
 }
 
 #header.alt h1 {
-  font-size: 3.25em;
+  font-size: 3em;
 }
 
-#header.alt > * {
-  -moz-transition: opacity 3s ease;
-  -webkit-transition: opacity 3s ease;
-  -ms-transition: opacity 3s ease;
-  transition: opacity 3s ease;
-  -moz-transition-delay: 0.5s;
-  -webkit-transition-delay: 0.5s;
-  -ms-transition-delay: 0.5s;
-  transition-delay: 0.5s;
-  opacity: 1;
+#header.alt p {
+  margin-bottom: 1em;
+}
+
+#header.alt ul {
+  margin-bottom: 1em;
 }
 
 #header.alt .logo {
@@ -3145,7 +3141,7 @@ table.alt tbody tr td {
   }
 
   #header.alt {
-    padding: 6em 4em 3em 4em ;
+    padding: 3em 4em 1em 4em ;
   }
 
 }
@@ -3157,7 +3153,7 @@ table.alt tbody tr td {
   }
 
   #header.alt {
-    padding: 5em 3em 2em 3em ;
+    padding: 3em 3em 1em 3em ;
   }
 
 }
@@ -3178,7 +3174,7 @@ table.alt tbody tr td {
   }
 
   #header.alt {
-    padding: 4em 2em 1em 2em ;
+    padding: 3em 2em 1em 2em;
   }
 
   #header.alt h1 {
@@ -3194,7 +3190,7 @@ table.alt tbody tr td {
   }
 
   #header.alt {
-    padding: 4em 1.5em 1em 1.5em ;
+    padding: 3em 1.5em 1em 1.5em;
   }
 
 }
@@ -3206,20 +3202,9 @@ table.alt tbody tr td {
   }
 
   #header.alt {
-    padding: 3.5em 1em 0.5em 1em ;
+    padding: 3em 1em 0.5em 1em;
   }
 
-}
-
-body.is-preload #header.alt > * {
-  opacity: 0;
-}
-
-body.is-preload #header.alt .logo {
-  -moz-transform: scale(0.8) rotate(-30deg);
-  -webkit-transform: scale(0.8) rotate(-30deg);
-  -ms-transform: scale(0.8) rotate(-30deg);
-  transform: scale(0.8) rotate(-30deg);
 }
 
 /* Nav */
