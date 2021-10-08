@@ -39,7 +39,7 @@
       </header>
 
       <div id="main">
-        <section id="intro" class="main">
+        <section class="main">
           <div class="spotlight">
             <div class="content">
               <header class="major">
@@ -49,7 +49,7 @@
               <p>I'm most comfortable with Ruby and JavaScript, but I believe in weighing tradeoffs and picking the right tool for the job. To that end, I'm comfortable with "just-in-time" learning to pickup and apply new technologies quickly.</p>
               <p>I recently co-created <a href="https://guardrail-service-testing.github.io/">Guardrail</a>: an open-source traffic replay tool for testing microservices in isolation.</p>
               <ul class="actions">
-                <li><a href="#featured" class="button">Learn More</a></li>
+                <li><a href="#featured" class="button primary">Learn More</a></li>
               </ul>
             </div>
             <span class="image"><img src="images/tim.jpg" alt="Timothy Cummings" /></span>
@@ -64,26 +64,33 @@
               </header>
               <p>Guardrail is an open-source traffic replay tool for testing microservices in isolation. Traffic is recorded in production and then replayed in a testing/staging environment to detect regressions with a fraction of the effort of traditional integration or component tests.</p>
 
-              <figure>
-                <img src="images/guardrail_production.png" alt="production infrastructure" />
-                <figcaption>Record production traffic.</figcaption>
-              </figure>
+              <div class="row aln-center">
+                <figure class="col-7">
+                  <img src="images/guardrail_production.png" alt="production infrastructure" />
+                </figure>
 
-              <figure>
-                <img src="images/guardrail_staging.png" alt="staging infrastructure" />
-                <figcaption>Replay traffic in staging.</figcaption>
-              </figure>
+                <figure class="col-5">
+                  <img src="images/guardrail_staging.png" alt="staging infrastructure" />
+                </figure>
+              </div>
 
-              <p>Guardrail includes a reporting service for viewing metrics about the replayed traffic as well as diffs that might indicate regressions.</p>
+              <br />
 
-              <figure class="image fit">
-                <img src="images/ui2.png" alt="Guardrail report interface" />
-                <figcaption>report UI</figcaption>
-              </figure>
+              <div class="row aln-center">
+                <p>Guardrail includes a reporting service for viewing metrics about the replayed traffic as well as diffs that might indicate regressions.</p>
 
-              <ul class="actions">
-                <li><a href="https://guardrail-service-testing.github.io/#case-study" class="button primary">Read the Case Study</a></li>
-              </ul>
+                <!-- <figure class="col-6"> -->
+                <!--   <img src="images/ui2.png" alt="Guardrail report interface" /> -->
+                <!-- </figure> -->
+                <img class="col-6" src="images/ui2.png" alt="Guardrail report interface" />
+              </div>
+
+              <br />
+              <br />
+
+              <div class="row aln-center">
+                <a href="https://guardrail-service-testing.github.io/#case-study" class="button primary">Read the Case Study</a></li>
+              </div>
             </div>
           </div>
         </section>
