@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-Stellar by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html lang="en">
   <head>
     <title>Timothy Cummings | Software Engineer</title>
@@ -21,23 +16,17 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
       <header id="header" class="alt">
         <!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
         <h1>Timothy Cummings</h1>
-        <!--
-        <p>Just another free, fully responsive site template<br />
-          built by <a href="https://twitter.com/ajlkn">@ajlkn</a> for <a href="https://html5up.net">HTML5 UP</a>.</p>
--->
       </header>
 
       <!-- Nav -->
-      <!--
-      <nav id="nav">
-        <ul>
-          <li><a href="#intro" class="active">Introduction</a></li>
-          <li><a href="#first">First Section</a></li>
-          <li><a href="#second">Second Section</a></li>
-          <li><a href="#cta">Get Started</a></li>
-        </ul>
-      </nav>
-      -->
+      <!-- <nav id="nav"> -->
+      <!--   <ul> -->
+      <!--     <li><a href="#intro" class="active">Introduction</a></li> -->
+      <!--     <li><a href="#first">First Section</a></li> -->
+      <!--     <li><a href="#second">Second Section</a></li> -->
+      <!--     <li><a href="#cta">Get Started</a></li> -->
+      <!--   </ul> -->
+      <!-- </nav> -->
 
       <!-- Main -->
       <div id="main">
@@ -52,9 +41,7 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
               </header>
               <p>I'm a software engineer based in Nashville, TN. I enjoy solving challenging problems and I strive to deliver practical solutions that add real value.</p>
               <p>I'm most comfortable with Ruby and JavaScript, but I believe in weighing tradeoffs and picking the right tool for the job. To that end, I'm comfortable with "just-in-time" learning to pickup and apply new technologies quickly.</p>
-              <p>I recently co-created
-              <a target="_blank" href="https://guardrail-service-testing.github.io/">Guardrail</a>:
-              an open-source traffic replay tool for testing microservices in isolation.</p>
+              <p>I recently co-created <a href="https://guardrail-service-testing.github.io/">Guardrail</a>: an open-source traffic replay tool for testing microservices in isolation.</p>
               <ul class="actions">
                 <li><a href="#featured" class="button">Learn More</a></li>
               </ul>
@@ -63,18 +50,35 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
         </section>
 
         <section id="featured" class="main">
-          <div class="spotlight">
+          <div>
             <div class="content">
               <header class="major">
                 <h2>Guardrail</h2>
               </header>
               <p>Guardrail is an open-source traffic replay tool for testing microservices in isolation. Traffic is recorded in production and then replayed in a testing/staging environment to detect regressions with a fraction of the effort of traditional integration or component tests.</p>
+
+              <figure>
+                <img src="images/guardrail_production.png" alt="production infrastructure" />
+                <figcaption>Record production traffic.</figcaption>
+              </figure>
+
+              <figure>
+                <img src="images/guardrail_staging.png" alt="staging infrastructure" />
+                <figcaption>Replay traffic in staging.</figcaption>
+              </figure>
+
+              <p>Guardrail includes a reporting service for viewing metrics about the replayed traffic as well as diffs that might indicate regressions.</p>
+
+              <figure class="image fit">
+                <img src="images/ui2.png" alt="Guardrail report interface" />
+                <figcaption>report UI</figcaption>
+              </figure>
+
               <ul class="actions">
-                <li><a target="_blank" href="https://guardrail-service-testing.github.io/#case-study" class="button primary">Read the Case Study</a></li>
-                <li><a target="_blank" href="https://guardrail-service-testing.github.io/#presentation" class="button">Watch the Presentation</a></li>
+                <li><a href="https://guardrail-service-testing.github.io/#case-study" class="button primary">Read the Case Study</a></li>
               </ul>
             </div>
-            <img class="basic-image" src="images/ui2.png" alt="Guardrail user interface" />
+            <!-- <img class="basic-image" src="images/ui2.png" alt="Guardrail user interface" /> -->
           </div>
           <!-- <img class="basic-image" src="images/ui2.png" alt="Guardrail user interface" /> -->
         </section>
@@ -83,26 +87,23 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
       <!-- Footer -->
       <footer id="footer">
         <section>
-          <h2>Connect with me:</h2>
-          <dl class="alt">
-            <dt>Email</dt>
-            <dd><a href="mailto:timjc86@gmail.com">timjc86@gmail.com</a></dd>
-            <dt>Resume</dt>
-            <dd><a target="_blank" href="assets/resume.pdf">click here</dd>
-            <dt>LinkedIn</dt>
-            <dd><a target="_blank" href="https://www.linkedin.com/in/timothyjcummings/">https://www.linkedin.com/in/timothyjcummings/</a></dd>
-            <dt>GitHub</dt>
-            <dd><a target="_blank" href="https://github.com/TimCummings">https://github.com/TimCummings</a></dd>
-          </dl>
-          <ul class="icons">
-            <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
-            <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
-            <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
-            <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+          <h2>Contact Info</h2>
+          <p>I'm always happy to make new connections and explore potential opportunities. Let's talk!</p>
+          <ul>
+            <li><a href="mailto:timjc86@gmail.com" target="_blank">Email</a></li>
+            <li><a href="assets/resume.pdf">Resume</a></li>
+            <li><a href="https://www.linkedin.com/in/timothyjcummings/">LinkedIn</a></li>
+            <li><a href="https://github.com/TimCummings">Github</a></li>
           </ul>
+          <!-- <ul class="icons"> -->
+          <!--   <li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li> -->
+          <!--   <li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li> -->
+          <!--   <li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li> -->
+          <!--   <li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li> -->
+          <!--   <li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li> -->
+          <!-- </ul> -->
         </section>
-        <p class="copyright">&copy; Untitled. Design: <a target="_blank" href="https://html5up.net">HTML5 UP</a>.</p>
+        <p class="copyright">Design: <a target="_blank" href="https://html5up.net">HTML5 UP</a>.</p>
       </footer>
 
     </div>
@@ -118,3 +119,8 @@ Free for personal and commercial use under the CCA 3.0 license (html5up.net/lice
 
   </body>
 </html>
+<!--
+Stellar by HTML5 UP
+html5up.net | @ajlkn
+Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
